@@ -1,0 +1,180 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Flow+Circular&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c51e7d2e6c.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left">
+            <div class="home">
+                <img class="logo" src="images/logo.svg" alt="home">
+                <ul>
+                    <li class="flex hom"><img class="icons" src="images/home.svg" alt="home">Home</li>
+                    <li class="flex search"><img class="icons" src="images/search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library">
+                <div class="main-div">
+                    <img class="library-icon" src="images/library.svg" alt="library"> 
+                    <p>Your Library</p><br>
+                </div>
+                <div class="songList">
+                    <ol></ol>
+                </div>
+                <!--
+                <ul class="box-1">
+                    <p class="create">Create Your First Playlist</p>
+                    <p class="help">Its easy, we'll help you</p>
+                    <button class="button">Create Playlist</button>
+                </ul>
+                <ul class="box-2">
+                    <p class="create">Let's Find Some Podcasts To Follow</p>
+                    <p class="help">We'll keep you updated on new episodes</p>
+                    <button class="button">Browse Podcasts</button>
+                </ul>
+                <p class="extras">
+                    <a href="" class="gen-link">Legal</a> - <a href="" class="gen-link">Safety & Privacy Center</a> <br>
+                    <a href="" class="gen-link">Privacy Policy</a> - <a href="" class="gen-link">Cookies</a> - <a href="" class="gen-link">About Ads</a> <br>
+                    <a href="" class="gen-link">Accessibility</a> <br>
+                    <a href="" class="spe-link">Cookies</a> <br>
+                </p> -->
+            </div>
+        </div>
+        <div class="right">
+            <div class="header">
+                <div class="navigation">
+                    <button class="arrows"><</button>
+                    <button class="arrows">></button>
+                </div>
+                <div class="buttons">
+                    <button class="sign-up">Sign Up</button>
+                    <button class="login">Log in</button>
+                </div>
+            </div>
+            <div class="spotify-playlist">
+                <h2>Spotify Playlist</h2>
+                <div class="card-Container">
+                    <div data-folder="newFriday" class="music-card">
+                        <button class="card-play"><i class="fa-solid fa-play"></i></button>
+                        <img src="images/cardPhotos/musicFriday.jpeg" alt="musicFriday" class="card-image">
+                        <p class="card-title">New Music Friday</p>
+                        <p class="card-subtitle">The very best in new music from around the world</p>
+                    </div>
+                    <div class="music-card">
+                        <button class="card-play"><i class="fa-solid fa-play"></i></button>
+                        <img src="images/cardPhotos/newJoints.jpeg" alt="musicFriday" class="card-image">
+                        <p class="card-title">New Joints</p>
+                        <p class="card-subtitle">All new joints featuring JCs, Gucci, Beiber and more</p>
+                    </div>
+                    <div class="music-card">
+                        <button class="card-play"><i class="fa-solid fa-play"></i></button>
+                        <img src="images/cardPhotos/HappyBeats.jpeg" alt="musicFriday" class="card-image">
+                        <p class="card-title">Happy Beats</p>
+                        <p class="card-subtitle">Feel-good dance music!</p>
+                    </div>
+                    <div class="music-card">
+                        <button class="card-play"><i class="fa-solid fa-play"></i></button>
+                        <img src="images/cardPhotos/stateOfJazz.jpeg" alt="musicFriday" class="card-image">
+                        <p class="card-title">State Of Jazz</p>
+                        <p class="card-subtitle">New jazz cover for open minds</p>
+                    </div>
+                    <div class="music-card">
+                        <button class="card-play"><i class="fa-solid fa-play"></i></button>
+                        <img src="images/cardPhotos/theNewAlt.jpeg" alt="musicFriday" class="card-image">
+                        <p class="card-title">The New Alt</p>
+                        <p class="card-subtitle">No rules. No boundaries. The best in class music is right here</p>
+                    </div>
+                    <div class="music-card">
+                        <button class="card-play"><i class="fa-solid fa-play"></i></button>
+                        <img src="images/cardPhotos/dinnerLounge.jpeg" alt="musicFriday" class="card-image">
+                        <p class="card-title">Dinner Lounge</p>
+                        <p class="card-subtitle">Soft electronic music for your dinner</p>
+                    </div>
+                    <div class="music-card">
+                        <button class="card-play"><i class="fa-solid fa-play"></i></button>
+                        <img src="images/cardPhotos/beerWings.jpeg" alt="musicFriday" class="card-image">
+                        <p class="card-title">Beer & Wings</p>
+                        <p class="card-subtitle">Cool Beer. Hot Wings. Great Rock.</p>
+                    </div>
+                    <div class="music-card">
+                        <button class="card-play"><i class="fa-solid fa-play"></i></button>
+                        <img src="images/cardPhotos/kitchenSwagger.jpeg" alt="musicFriday" class="card-image">
+                        <p class="card-title">Kitchen Swagger</p>
+                        <p class="card-subtitle">Gettin' figgy with it, bana-na-na-nanana</p>
+                    </div>
+                    <div class="music-card">
+                        <button class="card-play"><i class="fa-solid fa-play"></i></button>
+                        <img src="images/cardPhotos/DinnerChill.jpeg" alt="musicFriday" class="card-image">
+                        <p class="card-title">Dinner & Chill</p>
+                        <p class="card-subtitle">Gentle indie songs for a relaxed dinner</p>
+                    </div>
+                    <div class="music-card">
+                        <button class="card-play"><i class="fa-solid fa-play"></i></button>
+                        <img src="images/cardPhotos/soulDinner.jpeg" alt="musicFriday" class="card-image">
+                        <p class="card-title">The New Alt</p>
+                        <p class="card-subtitle">Classic and new soul music for the perfect family dates</p>
+                    </div>
+                    <div class="music-card">
+                        <button class="card-play"><i class="fa-solid fa-play"></i></button>
+                        <img src="images/cardPhotos/hindiHotHits.jpeg" alt="musicFriday" class="card-image">
+                        <p class="card-title">Hindi Hot Hits</p>
+                        <p class="card-subtitle">Box office hindi music to lighten up your parties</p>
+                    </div>
+                    <div class="music-card">
+                        <button class="card-play"><i class="fa-solid fa-play"></i></button>
+                        <img src="images/cardPhotos/oldLoveSongs.jpeg" alt="musicFriday" class="card-image">
+                        <p class="card-title">Old Love Songs</p>
+                        <p class="card-subtitle">Delve into romantic hits of the past</p>
+                    </div>
+                    <div class="music-card">
+                        <button class="card-play"><i class="fa-solid fa-play"></i></button>
+                        <img src="images/cardPhotos/trendingHindi.webp" alt="musicFriday" class="card-image">
+                        <p class="card-title">Trending Hindi Songs</p>
+                        <p class="card-subtitle">Listen the hindi hits everyone is listening to!</p>
+                    </div>
+                    <div class="music-card">
+                        <button class="card-play"><i class="fa-solid fa-play"></i></button>
+                        <img src="images/cardPhotos/arijitSingh.jpeg" alt="musicFriday" class="card-image">
+                        <p class="card-title">This is Arijit</p>
+                        <p class="card-subtitle">The best of music by Arijit Singh</p>
+                    </div>
+                    <div class="music-card">
+                        <button class="card-play"><i class="fa-solid fa-play"></i></button>
+                        <img src="images/cardPhotos/adele.jpeg" alt="musicFriday" class="card-image">
+                        <p class="card-title">The New Alt</p>
+                        <p class="card-subtitle">The best of music by Adele</p>
+                    </div>
+                </div>
+            </div>
+            <div class="play-bar">
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+                <div class="music-name"></div>
+                <div class="player-buttons">
+                    <img class="previous pbutton" src="images/previous.svg">
+                    <img class="play-pause pbutton" src="images/pause.svg">
+                    <img class="next pbutton" src="images/next.svg">
+                </div>
+                <div class="time-volume">
+                    <div class="time-played">00:00</div>
+                    <div class="volume-system">
+                        <div class="volume"><img src="images/volume.svg" alt=""></div>
+                        <input type="range" class="volume-seek">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
